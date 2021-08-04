@@ -7,6 +7,9 @@
     width: 1024px;
     margin: auto;
   }
+  .spacing {
+    padding: 0 16px;
+}
 .national-dance__name {
     font-size: 36px;
     font-style: normal;
@@ -92,6 +95,7 @@
 .national-dance_image {
     width: 545px;
     max-width: 545px;
+    object-fit: contain;
 }
 .national-dance_date {
     font-family: Oswald;
