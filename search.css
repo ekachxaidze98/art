@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1024px;
+    margin: auto;
+  }
+  .search_wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .search_form {
+    display: flex;
+    align-items: center;
+    margin: 29px 0 98px 0;
+  }
+  .search_input {
+    width: 296px;
+    height: 40px;
+    border: 1px solid #000000;
+    border-right: none;
+  }
+  .search_button {
+    height: 40px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-left: none;
+    padding: 8px 11px;
+  }
+
+.search_result-quantity {
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #747474;
+}
+
+.search_result {
+    font-style: normal;
+    font-weight: 700;
+    color: #747474;
+  }
+  .search_item {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+  }
+  .search_item-img {
+    width: 513px;
+    height: 232px;
+    object-fit: cover;
+  }
+  .searc_item-info {
+      margin-left: 31px;
+  }
+  .searc_item-title {
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;    
+    margin-bottom: 20px;
+  }
+  .searc_item-description {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;  
+  }
+  @media only screen and (max-width: 1024px) {
+    .container {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .search_item {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
+      .search_item-img {
+          margin-bottom: 45px;
+          padding: 0 15px;
+      }
+      .search_item-img {
+        width: 354px;
+      }
+      .searc_item-info {
+        margin-left: 0;
+        padding: 0 15px;
+    }
+    .search_result-quantity {
+        padding: 0 15px;
+    }
+      @media only screen and (max-width: 576px) {
+        .search_item-img {
+            width: 320px;
+          }
+          .search_form{
+              width: 100%;
+              padding: 0 15px;
+          }
+          .search_input {
+            width: 100%;
+          }
+      }
+  }
