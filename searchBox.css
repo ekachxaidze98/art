@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.search_box {
+    height: 493px;
+    width: 291px;
+    background: #F3F3F3;
+   padding: 20px;
+}
+.search_box-header {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 4px;
+}
+.search_box-item{
+    list-style-type: none;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;   
+}
+.search_drawing {
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000;
+}
+.search_arrow {
+    width: 9.12px;
+    height: 9.12px;
+}
+.search_drawing-wrapper {
+    text-align: end;
+}
+.search_results {
+    margin-top: 20px;
+}
+.search_results-quantity {
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #747474;
+    margin-bottom: 8px;
+}
+.search_result {
+   font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0em;
+}
+.search_results-datewrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+    margin-bottom: 4px;
+}
+.search_results-item {
+    margin-bottom: 28px;
+}
+.search_results-date {
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;     
+}
+.search_results-type {
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #000;
+}
+.search_results-title {
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+}
+.search_button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search_button {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000;
+    padding: 6px 7px;
+    border: 1px solid #000;
+    width: 146px;
+}
